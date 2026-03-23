@@ -16,5 +16,6 @@ Given the full limits of the above, it is best to take the approach mentioned in
 
 * We should interpret the 'git author' by default as the no more than the 'contributor' of the change to git.  
 * A 'committer' can put a contributed change (e.g. contributed by a git patch or through a pull request) into a repository different from the 'contributor', that the 'committer' has permission to do so.  
-*  All 'authorship' should be made clear in the commit message with an 'Authored-by:', 'Co-authored-by:', etc. trailer matching scholarly practices of attribution.
+* Authors different from the 'contributor' should be attributed properly with the '--author' tag, potentially using a '.invalid' email address to provide details.
+* All 'authorship' should be made clear in the commit message with an 'Authored-by:', 'Co-authored-by:', etc. trailer matching scholarly practices of attribution, if other attribution options are not satisfactory.  The author of the commit should be changed to 'in.message@detailed.invalid' or something similar.
 * If 'authorship' is unspecified, it can be guessed that the 'contributor' is claiming sole authorship.  But the lack of attribution could just as well be from oversight.
